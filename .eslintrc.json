@@ -66,5 +66,13 @@
       "import/resolver": {
         "typescript": {}
       }
-    }
+    },
+    "overrides": [
+      {
+        "files": [ "**/*Repository.ts" ],
+        "rules": {
+          "no-use-before-define": "off"
+        }
+      }
+    ]
 }
